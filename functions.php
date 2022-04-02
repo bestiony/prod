@@ -2,7 +2,7 @@
 function printProduct($product)
 {
 
-
+    // change 1
     $in_favourites = $product['favorite'] > 0;
     if ($in_favourites) {
         $button = "<button type='submit' name ='favorite' value='Remove from Favorite'>
